@@ -59,7 +59,7 @@
 		case 'localhost':
 			$env = 'development';
 			break;
-		case 'lombafotobinamarga.com':
+		case 'lombafotobinamarga.com/develop/':
 			$env = 'production';
 			break;
 		default:
