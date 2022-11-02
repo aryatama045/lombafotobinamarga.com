@@ -245,7 +245,7 @@ a:focus {
   justify-content: center;
 }
 .tm-hero-text-container-inner {
-  margin-top: -7em;
+  margin-top: -3em;
   left: 12em;
   position: absolute;
   z-index: 1;
@@ -256,7 +256,7 @@ a:focus {
 }
 
 .tm-hero-text-container-inner2 {
-  margin-top: -28em;
+  margin-top: -25em;
   left: 0em;
   position: absolute;
   z-index: 0;
@@ -267,7 +267,7 @@ a:focus {
 }
 .tm-hero-text-container-inner3 {
   margin-top: 13em;
-  right: 20em;
+  right: 16em;
   position: absolute;
 }
 .tm-hero-text-container-inner3 img {
