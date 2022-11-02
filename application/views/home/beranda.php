@@ -146,22 +146,22 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
 
             <div class=" tm-hero-text-container">
                 <div class="tm-hero-text-container-inner">
-                    <img  src="<?= base_url('assets/home/') ?>center.png" alt="">
+                    <!-- <img  src="<?= base_url('assets/home/') ?>center.png" alt=""> -->
                 </div>
                 <div class="tm-hero-text-container-inner2 ">
                 <!--d-md-block d-none-->
-                    <img  src="<?= base_url('assets/home/') ?>center2.png" alt="">
+                    <!-- <img  src="<?= base_url('assets/home/') ?>center2.png" alt=""> -->
                 </div>    
                 <!-- <div class="tm-hero-text-container-inner4 d-lg-none ">
                     <img  src="<?= base_url('assets/home/') ?>center4.png" alt="">
                 </div>  -->
                 <div class="tm-hero-text-container-inner3 ">
                 <!--d-md-block d-none-->
-                    <img  src="<?= base_url('assets/home/') ?>center3.png" alt="">
+                    <!-- <img    src="<?= base_url('assets/home/') ?>center3.png" alt=""> -->
                 </div> 
                 <div class="tm-hero-text-container-inner5">
                     <div class="img-center-5">
-                        <img  src="<?= base_url('assets/home/') ?>center4.png" alt="">
+                        <!-- <img  src="<?= base_url('assets/home/') ?>center4.png" alt=""> -->
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
 
 
     </div>
-    <div class="ticker">
+    <!-- <div class="ticker">
             <div class="title">
                 <h5>UPDATE !!</h5>
             </div>
@@ -179,7 +179,7 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
                     <p>Alamat Email Pengiriman Karya !! <a href="https://lombahabitat2022.com/page/detail/pengiriman-karya">Klik Detail</a> </p>
                 </marquee>
             </div>
-        </div>
+        </div> -->
 
     <?php $this->M_main->kunjungan(); ?>
 
