@@ -16,7 +16,7 @@ $card_body = $url!='page/detail/hadiah-juara'?'card-body':'';
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <!-- <div class="block <?= //$card ?> post--layout--classic"> -->
+            <!-- <div class="block <?= $card ?> post--layout--classic"> -->
             <div class="block  post--layout--classic"> 
 
                 <!-- <div class="post__featured"><a href="#"><img src="" alt=""></a></div> -->
