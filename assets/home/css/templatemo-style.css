@@ -246,13 +246,13 @@ a:focus {
 }
 .tm-hero-text-container-inner {
   margin-top: -7em;
-  left: 6em;
+  left: 12em;
   position: absolute;
   z-index: 1;
 }
 
 .tm-hero-text-container-inner img {
-  width: 30%;
+  width: 65%;
 }
 
 .tm-hero-text-container-inner2 {
@@ -698,12 +698,12 @@ p {
     
   
     .tm-hero-text-container-inner {
-      margin-top: 9em;
+      margin-top: -2em;
       left: 1rem;  
       position: absolute;
     }
     .tm-hero-text-container-inner img {
-        width: 40%;
+        width: 90%;
     }
     
     .tm-hero-text-container-inner2 {
