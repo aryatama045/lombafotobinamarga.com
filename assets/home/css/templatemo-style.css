@@ -183,6 +183,16 @@ a:focus {
         position: absolute;
     }
 
+
+    .tm-hero-text-container-inner4 {
+        margin-top: 23em;
+        left: 26em;
+        position: absolute;
+    }
+    .tm-hero-text-container-inner4 img {
+      width: 35%;
+    }
+
     
     .tm-hero-text-container-inner5 img {
         width: 118px;
@@ -219,6 +229,15 @@ a:focus {
         margin-top: 7em;
         right: 0em;
         position: absolute;
+    }
+
+    .tm-hero-text-container-inner4 {
+        margin-top: 23em;
+        left: 26em;
+        position: absolute;
+    }
+    .tm-hero-text-container-inner4 img {
+      width: 35%;
     }
 
     
@@ -276,12 +295,12 @@ a:focus {
 
 
 .tm-hero-text-container-inner4 {
-    bottom: 0;
-    left: 0em;
+  margin-top: 21em;
+  left: 5em;
     position: absolute;
 }
 .tm-hero-text-container-inner4 img {
-  width: 112px;
+  width: 65%;
 }
 
 .tm-hero-text-container-inner5 {
@@ -698,7 +717,7 @@ p {
     
   
     .tm-hero-text-container-inner {
-      margin-top: -2em;
+      margin-top: 0em;
       left: 1rem;  
       position: absolute;
     }
@@ -716,13 +735,22 @@ p {
     }
     
     .tm-hero-text-container-inner3 {
-        margin-top: 10em;
+        margin-top: 12em;
         right: 2em;
         position: absolute;
     }
 
     .tm-hero-text-container-inner3 img {
       width: 152px;
+  }
+
+  .tm-hero-text-container-inner4 {
+    margin-top: 21em;
+    left: 5em;
+      position: absolute;
+  }
+  .tm-hero-text-container-inner4 img {
+    width: 65%;
   }
 
     
