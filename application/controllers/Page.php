@@ -25,6 +25,8 @@ class Page extends CI_Controller
 		$data['record'] = $this->Model_halaman->page_detail($ids)->row_array();
 		$data['infoterbaru'] = $this->Model_artikel->info_terbaru(6);
 		$this->Model_halaman->page_dibaca_update($ids);
+
+		
 		$this->template->load('home/template', 'home/halaman/view_page', $data);
 	}
 
