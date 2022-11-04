@@ -18,6 +18,7 @@
 <script>
     $.widget.bridge('uibutton', $.ui.button)
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="<?= base_url('assets/template/adminlte3/'); ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="<?= base_url('assets/template/adminlte3/'); ?>plugins/chart.js/Chart.min.js"></script>
 <script src="<?= base_url('assets/template/adminlte3/'); ?>plugins/sparklines/sparkline.js"></script>
@@ -44,7 +45,20 @@
             searching: true
         });
     });
+
+
+    function findTotal(){
+        var arr = document.getElementsByClassName('amount');
+        var tot=0;
+        for(var i=0;i<arr.length;i++){
+            if(parseFloat(arr[i].value))
+                tot += parseFloat(arr[i].value);
+        }
+        document.getElementById('totalordercost').value = tot;
+    }
+
 </script>
+
 
 </body>
 

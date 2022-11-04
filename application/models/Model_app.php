@@ -15,6 +15,34 @@ class Model_app extends CI_model
         return $query->row();
     }
 
+    public function getKarya($id)
+    {
+        $this->db->from('tb_karya');
+        $this->db->where('id', $id);
+        $query = $this->db->get();
+
+        return $query->row();
+    }
+
+    public function editKarya()
+    {
+
+        $datadb = array(
+            'pminggu1' => $this->input->post('pminggu1'),
+            'pminggu2' => $this->input->post('pminggu2'),
+            'pminggu3' => $this->input->post('pminggu3'),
+            'pminggu4' => $this->input->post('pminggu4'),
+            'kminggu1' => $this->input->post('kminggu1'),
+            'kminggu2' => $this->input->post('kminggu2'),
+            'kminggu3' => $this->input->post('kminggu3'),
+            'kminggu4' => $this->input->post('kminggu4'),
+        );
+
+        $this->db->where('id', '1');
+        $query = $this->db->update('tb_karya', $datadb);
+        return ($query)?true:false;
+    }
+
     public function insert($table, $data)
     {
         return $this->db->insert($table, $data);

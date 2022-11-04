@@ -29,6 +29,27 @@ class Admin extends CI_Controller
 		}
 	}
 
+	function karya()
+	{
+		if (!empty($this->session->userdata())) {
+
+			$data['title'] = 'karya ';
+			$data['dKarya'] = $this->Model_app->getKarya('1');
+			$data['sump']	= $data['dKarya']->pminggu1 + $data['dKarya']->pminggu2 + $data['dKarya']->pminggu3 + $data['dKarya']->pminggu4;
+			$data['sumk']	= $data['dKarya']->kminggu1 + $data['dKarya']->kminggu2 + $data['dKarya']->kminggu3 + $data['dKarya']->kminggu4;
+			// tesx($data['sump']);
+			$this->template->load('admin/template', 'admin/karya', $data);
+		} else {
+			redirect('admin');
+		}
+	}
+
+	function edit_karya()
+	{
+		$this->Model_app->editKarya();
+		redirect('admin/karya');
+	}
+
 	function home()
 	{
 		if (!empty($this->session->userdata())) {

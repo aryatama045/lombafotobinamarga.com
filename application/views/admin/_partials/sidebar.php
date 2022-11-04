@@ -8,7 +8,14 @@
       </a>
     </li>
 
- 
+    <li class="nav-item mt-2">
+      <a href="<?= base_url('admin/karya')?>" class="nav-link">
+        <i class="nav-icon fas fa-user fa-fw"></i>
+        <p>
+          Penerimaan Karya
+        </p>
+      </a>
+    </li>
 
     <li class="nav-item has-treeview">
       <a href="#" class="nav-link">
