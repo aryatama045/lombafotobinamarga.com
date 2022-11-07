@@ -26,6 +26,10 @@ class Page extends CI_Controller
 		$data['infoterbaru'] = $this->Model_artikel->info_terbaru(6);
 		$this->Model_halaman->page_dibaca_update($ids);
 
+		$data['dKarya'] = $this->Model_app->get_karya('1');
+		$data['sump'] = $data['dKarya']->pminggu1 + $data['dKarya']->pminggu2 + $data['dKarya']->pminggu3 + $data['dKarya']->pminggu4;
+		$data['sumk'] = $data['dKarya']->kminggu1 + $data['dKarya']->kminggu2 + $data['dKarya']->kminggu3 + $data['dKarya']->kminggu4;
+
 		
 		$this->template->load('home/template', 'home/halaman/view_page', $data);
 	}
