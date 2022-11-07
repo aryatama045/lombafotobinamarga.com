@@ -56,29 +56,29 @@ $card_body = $url!='page/detail/hadiah-juara'?'card-body':'';
                         <td style="background: #244784;color: white; border:2px solid #ffffff; text-align:center;">
                             <b> Total Peserta </b></td>
                         <th  style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->pminggu1 ?></th>
+                            <?php echo $dKarya->pminggu1 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->pminggu2 ?></th>
+                            <?php echo $dKarya->pminggu2 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->pminggu3 ?></th>
+                            <?php echo $dKarya->pminggu3 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->pminggu4 ?></th>
+                            <?php echo $dKarya->pminggu4 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $sump ?></th>
+                            <?php echo $sump ?></th>
                     </tr>
                     <tr style="border:2px solid #ffffff; border:2px solid #ffffff; text-align:center;">
                         <td style="background: #244784;color: white;">
                             <b> Total Karya </b></td>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->kminggu1 ?></th>
+                            <?php echo $dKarya->kminggu1 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->kminggu2 ?></th>
+                            <?php echo $dKarya->kminggu2 ?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->kminggu3?> </th>
+                            <?php echo $dKarya->kminggu3?> </th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $dKarya->kminggu4?></th>
+                            <?php echo $dKarya->kminggu4?></th>
                         <th style="background: #ffc200;border:2px solid #ffffff; text-align:center;">
-                            <?= $sumk ?> </th>
+                            <?php echo $sumk ?> </th>
                     </tr> 
                 </tbody>
             </table>
